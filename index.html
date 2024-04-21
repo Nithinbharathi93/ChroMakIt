@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ChroMakIt</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="pg">
+        <h1>ChroMakIt</h1>
+        <button id="actionBtn">Start</button>
+        <div id="vids">
+            <canvas id="canvasOutput" width="300" height="225" style="background-color: black;"></canvas>
+            <video id="video" width="300" height="225" style="background-color: black;"></video>
+        </div>
+    </div>
+    <script async src="js/opencv.js" type="text/javascript" onload="onCvLoaded();"></script>
+    <script src="js/code.js"></script>
+</body>
+</html>
